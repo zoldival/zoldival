@@ -13,6 +13,5 @@
 - **laptime sim**: a quasi-steady-state laptime simulator for formula slug, plus research docs on sim methods
 - **fault detection**: xgboost model predicting motor controller fault events from telemetry (the hard part: super imbalanced classes)
 
-i also run zoldival, a youtube channel making long-form documentaries on roblox history.
 
 **tools**: python · pandas · numpy · matplotlib · jupyter · xgboost · unity · html · git · github · linux · adobe
