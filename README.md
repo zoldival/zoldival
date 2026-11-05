@@ -3,7 +3,7 @@
 
 3rd year comp sci @ uc santa cruz. i do data and simulation for [formula slug](https://github.com/formulaslug), ucsc's fsae electric race car team. long term i want to work in motorsport, ideally formula 1.
 
-**interests**: vehicle dynamics and simulation · data analysis and machine learning · game dev · film and documentary
+**interests**: vehicle dynamics and simulation · data analysis and machine learning · game dev · cybersecurity
 
 **what i'm working on**
 - **yaw rate modeling**: building a physics model of how the car rotates (steering, speed, tire loads) and validating it against logged fs-3 data
