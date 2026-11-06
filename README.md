@@ -7,7 +7,7 @@
 
 **what i'm working on**
 - **yaw rate modeling**: building a physics model of how the car rotates (steering, speed, tire loads) and validating it against logged fs-3 data
-- **driver-in-loop sim**: dashboard, cameras, lap screen and sound for our unity driving simulator
+- **driver-in-loop sim:** the unity side of our driving simulator, which hooks into the team's python vehicle model. i added the FS-4 model with spinning and steering wheels, a live dashboard, a lap timing screen for autocross, accel and skidpad, three camera views, and car sound generated from the drivetrain math
 
 **things i've built**
 - **laptime sim**: a quasi-steady-state laptime simulator for formula slug, plus research docs on sim methods
