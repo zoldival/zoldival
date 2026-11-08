@@ -12,5 +12,6 @@
 - **laptime sim**: a quasi-steady-state laptime simulator for formula slug, plus research docs on sim methods
 - **fault detection**: xgboost model predicting motor controller fault events from telemetry (the hard part: super imbalanced classes)
 - **driver-in-loop sim:** the unity side of our driving simulator, which hooks into the team's python vehicle model. i added the FS-4 model with spinning and steering wheels, a live dashboard, a lap timing screen for autocross, accel and skidpad, three camera views, and car sound generated from the drivetrain math
+- **[f1 25 discord rich presence](https://github.com/zoldival/f1-discord-presence):** a tray app that reads f1 25's udp telemetry and shows your mode, track, team and position on your discord profile. decodes the raw packets byte by byte, with custom track outlines and team badges for each one
 
 **tools**: python · pandas · numpy · matplotlib · jupyter · xgboost · unity · html · git · github · linux · adobe
