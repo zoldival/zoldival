@@ -7,6 +7,7 @@
 
 **what i'm working on**
 - **yaw rate modeling**: building a physics model of how the car rotates (steering, speed, tire loads) and validating it against logged fs-3 data
+
 **things i've built**
 - **laptime sim**: a quasi-steady-state laptime simulator for formula slug, plus research docs on sim methods
 - **fault detection**: xgboost model predicting motor controller fault events from telemetry (the hard part: super imbalanced classes)
