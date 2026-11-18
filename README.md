@@ -7,10 +7,10 @@
 
 **what i'm working on**
 - **yaw rate modeling**: building a physics model of how the car rotates (steering, speed, tire loads) and validating it against logged fs-3 data
+- **motor controller fault analysis**: figuring out why the motor controller on FS-2 and FS-3 randomly undervolts, by labeling the ~30 seconds before each fault in the telemetry and training an xgboost model to find what sets it off
 
 **things i've built**
 - **laptime sim**: a quasi-steady-state laptime simulator for formula slug, plus research docs on sim methods
-- **fault detection**: xgboost model predicting motor controller fault events from telemetry (the hard part: super imbalanced classes)
 - **driver-in-loop sim:** the unity side of our driving simulator, which hooks into the team's python vehicle model. i added the FS-4 model with spinning and steering wheels, a live dashboard, a lap timing screen for autocross, accel and skidpad, three camera views, and car sound generated from the drivetrain math
 - **[f1 25 discord rich presence](https://github.com/zoldival/f1-discord-presence):** a tray app that reads f1 25's udp telemetry and shows your mode, track, team and position on your discord profile. decodes the raw packets byte by byte, with custom track outlines and team badges for each one (will receive consistent updates)
 
